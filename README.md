@@ -29,3 +29,10 @@ As for each method:
 -compareProcess method is the one integrated other checking method.It would two version string,namely input1 and input2. First it would check if either of the input strings is not valid according to isValidInput method.Then it would check input string using compareAbsValue to compare absolute value. Finally, it would return the comparison result.
 
 3.QuestionC
+
+GeoRedisLruCache combine the functionality of a Local LRU cached and a distributed cache using Redis.  It handles caching and refreshing data in both the local cache and Redis while considering error handling for potential issues that may arise during cache operations.This LRU structure used LinkedHashMap to ensure the write and retrieve quickly as the time complexity of this algorithem is O(1). Some schedulers are called to remove the expired data periodically. we The explanations for each method are annotated in codes, please kindly check.
+
+    
+
+
+
