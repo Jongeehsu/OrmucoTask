@@ -24,9 +24,9 @@ As for each method:
 - compareAbsValue Method, it splits each input string using dots as separators. It would determine maximum length of the two arrays and checks if either of the input strings has more than two parts (indicating an invalid input) and returns -999.
   It then compares the absolute values of corresponding parts of the input strings (up to the length of len) and returns value(-1,1,0) according to comparing logic.
 
--isPositive method takes two version strings and checks if if the input string starts with a hyphen or not.
+- isPositive method takes two version strings and checks if if the input string starts with a hyphen or not.
 
--compareProcess method is the one integrated other checking method.It would two version string,namely input1 and input2. First it would check if either of the input strings is not valid according to isValidInput method.Then it would check input string using compareAbsValue to compare absolute value. Finally, it would return the comparison result.
+- compareProcess method is the one integrated other checking method.It would two version string,namely input1 and input2. First it would check if either of the input strings is not valid according to isValidInput method.Then it would check input string using compareAbsValue to compare absolute value. Finally, it would return the comparison result.
 
 3.QuestionC
 
