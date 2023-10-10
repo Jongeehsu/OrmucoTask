@@ -33,6 +33,6 @@ As for each method:
 GeoRedisLruCache combine the functionality of a Local LRU cached and a distributed cache using Redis.  It handles caching and refreshing data in both the local cache and Redis while considering error handling for potential issues that may arise during cache operations.This LRU structure used LinkedHashMap to ensure the write and retrieve quickly as the time complexity of this algorithem is O(1). Some schedulers are called to remove the expired data periodically. we The explanations for each method are annotated in codes, please kindly check.
 
     
-
+If there is any question, please free to reach me via x447xu@uwaterloo.ca or Tel num 226-789-6981. Jongee Hsu/Xiongyi Xu
 
 
